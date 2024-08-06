@@ -24,18 +24,9 @@ const valuee={first,last,email,address,city,state,zip,usename,website }
 console.log(valuee)
 
 }
-
-
-
-
-
-
-
-
-  return (
+return (
     <>
-       
-      <h1 className='text-4xl'>Coffee Store</h1>
+          <h1 className='text-4xl'>Coffee Store</h1>
       <section>
 
       <section className="p-6 ">
