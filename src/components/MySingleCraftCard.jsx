@@ -37,7 +37,6 @@ const MySingleCraftCard = ({ craft, crafts, setCrafts }) => {
                     );
                     const remaining = crafts.filter(cof => cof._id !== _id);
                     setCrafts(remaining);
-
                 }
             }
         } catch (error) {
@@ -47,10 +46,8 @@ const MySingleCraftCard = ({ craft, crafts, setCrafts }) => {
             setIsDeleting(false);
 
             navigate('/myCraftList')
-
         }
     };
-
     return (
         <div className="min-w-xs rounded-xl shadow-md bg-gray-900 dark:bg-gray-50 text-gray-100 dark:text-gray-800 w-72 m-auto justify-center items-center mb-5">
             <img src={craft.image} alt="Image" className="object-cover object-center w-full rounded-t-md h-44 bg-gray-500 dark:bg-gray-500" />

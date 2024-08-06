@@ -11,7 +11,6 @@ const ScrollableCard = () => {
     AOS.init(); // Initialize AOS
     fetchData();
   }, []);
-
   const fetchData = async () => {
     try {
       const response = await fetch('https://art-craft-store-server-delta.vercel.app/artCrafts');
