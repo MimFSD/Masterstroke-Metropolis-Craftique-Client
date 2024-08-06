@@ -7,7 +7,6 @@ import Swal from "sweetalert2";
 import { FcGoogle } from "react-icons/fc";
 
 
-
 const Login = () => {
     const { signIn, signInWithGoogle, signInWithGithub } = useContext(AuthContext);
     const location = useLocation();
@@ -113,8 +112,6 @@ const Login = () => {
                             <FaGithub className="mr-3" />
                             Login with GitHub
                         </button>
-
-
 
                         <div className="mt-4 text-sm flex items-center px-2 pb-4 text-gray-500">
                             <p>If you don't have an account..</p>
