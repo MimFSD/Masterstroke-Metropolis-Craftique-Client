@@ -6,8 +6,6 @@ import { FiSun, FiMoon } from 'react-icons/fi';
 import Swal from "sweetalert2";
 
 const Navbar = ({ isDarkMode, toggleTheme }) => {
-
-
     const { user, logOut } = useContext(AuthContext);
 
     const handleSignOut = async () => {
@@ -29,7 +27,6 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
                 if (!response.ok) {
                     throw new Error('Failed to delete craft item');
                 }
-
                 const data = await response.json();
                 if (data.deletedCount > 0) {
                     Swal.fire(
@@ -47,7 +44,6 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
             window.location.reload()
         }
     };
-
 
     const navLinks = <>
         <NavLink className={'px-4 py-2 rounded-full font-medium'} to="/">Home</NavLink>

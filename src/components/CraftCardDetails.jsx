@@ -49,6 +49,8 @@ const CraftCardDetails = () => {
           <div className="flex flex-col flex-1 mx-auto drop-shadow-xl md:p-8 p-4">
             <div className=" md:text-lg  font-semibold my-2">
               <span>Price : {price} TK</span>
+
+
             </div>
             <h3 className=" mb-5 lg:text-xl text-md leading-snug font-bold">
               {item_name}
@@ -67,6 +69,8 @@ const CraftCardDetails = () => {
                 onClick={() => navigate(-1 || '/')}
                 className='flex my-7 items-center justify-center w-full p-1 md:p-2 text-sm font-bold transition-colors duration-200 bg-blue-500 border rounded-lg gap-x-2 sm:w-auto mt-2   hover:bg-blue-600 text-white'
               >
+
+
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   fill='none'
