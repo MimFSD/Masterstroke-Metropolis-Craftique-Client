@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { useForm } from 'react-hook-form';
 import Swal from 'sweetalert2';
 
+
 const Register = () => {
     const { createUser, logOut } = useContext(AuthContext);
     const navigate = useNavigate();
@@ -38,6 +39,7 @@ const Register = () => {
             await updateProfile(result.user, { displayName: name, photoURL: photo });
             await logOut();
     
+
             Swal.fire({
                 title: "Success!",
                 text: "Registration completed successfully!",
@@ -58,6 +60,7 @@ const Register = () => {
         }
     };
     
+
 
     return (
         <div>
@@ -107,6 +110,7 @@ const Register = () => {
                                     placeholder="Password"
                                     {...register("password", { required: "Password is required" })}
                                 />
+
                                 <span onClick={() => setShowPassword(prevState => !prevState)}>
                                     {showPassword ? (
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" id="togglePassword" className="bi bi-eye absolute top-1/2 right-3 -translate-y-1/2 cursor-pointer z-20 opacity-100" viewBox="0 0 16 16">
@@ -131,6 +135,7 @@ const Register = () => {
                                     placeholder="Confirm Password"
                                     {...register("confirmPassword", { required: "Confirm Password is required" })}
                                 />
+                                
                                 <span onClick={() => setShowConfirmPassword(prevState => !prevState)}>
                                     {showConfirmPassword ? (
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" id="togglePassword" className="bi bi-eye absolute top-1/2 right-3 -translate-y-1/2 cursor-pointer z-20 opacity-100" viewBox="0 0 16 16">
