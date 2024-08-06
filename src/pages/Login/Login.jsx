@@ -6,7 +6,6 @@ import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
 import { FcGoogle } from "react-icons/fc";
 
-
 const Login = () => {
     const { signIn, signInWithGoogle, signInWithGithub } = useContext(AuthContext);
     const location = useLocation();
@@ -55,6 +54,7 @@ const Login = () => {
                         <h2 className="font-bold text-3xl text-[#002D74] text-center">Login</h2>
                         <p className="text-sm mt-4 text-[#002D74] text-center">If you're already a member, log in now.</p>
 
+
                         {showError && (
                             <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
                                 <strong className="font-bold">Error!</strong>
@@ -67,6 +67,8 @@ const Login = () => {
                                 </button>
                             </div>
                         )}
+
+
 
                         <form onSubmit={handleSubmit(handleLogin)} className="flex flex-col gap-4">
                             <input className="p-2 mt-8 rounded-xl border bg-gray-100 text-gray-800" type="email" name="email" placeholder="Email" {...register("email", { required: true })} />
