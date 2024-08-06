@@ -1,11 +1,12 @@
 
 # Selected Category : Painting and Drawing
 
-## WebSite Name : C͡r͡a͡ƒ͡t͡i͡q͡u͡e
+## WebSite Name : Craftique
 
-This is the repository for the C͡r͡a͡ƒ͡t͡i͡q͡u͡e web application.
+This is the repository for the Craftique web application.
 
 ## Features
+
 
 - Browse a wide variety of art and craft items.
 - Filter items by category or subcategory.
