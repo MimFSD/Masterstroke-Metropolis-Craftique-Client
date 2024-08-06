@@ -61,6 +61,8 @@ return (
 					<label htmlFor="state" className="text-sm">State / Province</label>
 					<input id="state" name='state' type="text" placeholder="" className="w-full rounded-md focus:ring focus:ring-opacity-75   " />
 				</div>
+
+				
 				<div className="col-span-full sm:col-span-2">
 					<label htmlFor="zip" className="text-sm">ZIP / Postal</label>
 					<input id="zip" name='zip' type="text" placeholder="" className="w-full rounded-md focus:ring focus:ring-opacity-75   " />
