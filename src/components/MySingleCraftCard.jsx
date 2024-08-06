@@ -23,7 +23,6 @@ const MySingleCraftCard = ({ craft, crafts, setCrafts }) => {
                 const response = await fetch(`https://art-craft-store-server-delta.vercel.app/artCrafts/${_id}`, {
                     method: 'DELETE'
                 });
-
                 if (!response.ok) {
                     throw new Error('Failed to delete craft item');
                 }

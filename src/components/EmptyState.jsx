@@ -4,7 +4,7 @@ const EmptyState = ({ message, address, label }) => {
   return (
     <div className=' h-screen gap-5 flex flex-col justify-center items-center pb-16 '>
       <p className=' text-xl lg:text-3xl'>{message}</p>
-
+      
       <Link
         to={address}
         className='relative inline-block px-4 py-2 font-medium group'
