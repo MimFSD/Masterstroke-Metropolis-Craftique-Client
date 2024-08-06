@@ -8,7 +8,6 @@ const MainCraftSection = ({ craft }) => {
   const handleSubcategoryChange = (event) => {
     setSelectedSubcategory(event.target.value);
   };
-
   const filteredCraft = selectedSubcategory
     ? craft.filter((item) => item.subcategory_Name === selectedSubcategory)
     : craft;

@@ -20,7 +20,6 @@ const ScrollableCard = () => {
       console.error('Error fetching data:', error);
     }
   };
-
   const limitedCraftData = craftData.slice(0, 6);
 
   return (
