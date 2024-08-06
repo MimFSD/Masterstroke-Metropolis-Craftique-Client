@@ -114,6 +114,8 @@ const Login = () => {
                             Login with GitHub
                         </button>
 
+
+
                         <div className="mt-4 text-sm flex items-center px-2 pb-4 text-gray-500">
                             <p>If you don't have an account..</p>
                             <span onClick={() => navigate('/register')} className="text-[#002D74] rounded-xl hover:scale-110 font-semibold cursor-pointer ml-2">Register</span>

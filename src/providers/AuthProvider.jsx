@@ -21,12 +21,14 @@ const AuthProvider = ({ children }) => {
         return signInWithEmailAndPassword(auth, email, password);
     }
 
+
+
     const signInWithGoogle = () => {
         setLoading(true);
         return signInWithPopup(auth, googleProvider);
     }
 
-    // Function to sign in with GitHub
+            // Function to sign in with GitHub
     const signInWithGithub = async () => {
         setLoading(true);
         const result = await signInWithPopup(auth, githubProvider);
