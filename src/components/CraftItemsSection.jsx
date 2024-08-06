@@ -11,7 +11,6 @@ const CraftItemsSection = ({ craft }) => {
     processing_time,
     stockStatus,
   } = craft;
-
   return (
     <div className="drop-shadow-xl  ">
       <article className="flex flex-col border-3 rounded-3xl shadow-md lg:w-72  my-1 h-96 justify-center mx-auto border">
@@ -23,8 +22,6 @@ const CraftItemsSection = ({ craft }) => {
           />
         </div>
 
-
-        
 
         <div className="flex flex-col flex-1 px-4 py-1">
           <div className="flex flex-wrap justify-between pt-3 space-x-2 text-lg font-medium">
