@@ -10,7 +10,6 @@ const CraftCard = ({ craft,index }) => {
         item_name,
         subcategory_Name,
         price,
-       
     } = craft;
 
 

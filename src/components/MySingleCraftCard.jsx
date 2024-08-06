@@ -6,7 +6,6 @@ const MySingleCraftCard = ({ craft, crafts, setCrafts }) => {
     const [isDeleting, setIsDeleting] = useState(false);
     const navigate = useNavigate();
 
-
     const handleDelete = async (_id) => {
         try {
             const result = await Swal.fire({
@@ -43,7 +42,7 @@ const MySingleCraftCard = ({ craft, crafts, setCrafts }) => {
             }
         } catch (error) {
             console.error('Error deleting craft item:', error);
-           
+        
         } finally {
             setIsDeleting(false);
 
