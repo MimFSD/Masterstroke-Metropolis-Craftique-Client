@@ -6,6 +6,8 @@ import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
 import { FcGoogle } from "react-icons/fc";
 
+
+
 const Login = () => {
     const { signIn, signInWithGoogle, signInWithGithub } = useContext(AuthContext);
     const location = useLocation();
@@ -96,6 +98,8 @@ const Login = () => {
                             </div>
                             <div className="px-2 justify-start mx-0 text-sm text-gray-500">Forget password?</div>
                             <button className="bg-[#002D74] text-white py-2 rounded-xl hover:scale-105 duration-300 hover:bg-[#206ab1] font-medium" type="submit">Login</button>
+                       
+                       
                         </form>
 
                         <div className="mt-4 items-center text-gray-100">
