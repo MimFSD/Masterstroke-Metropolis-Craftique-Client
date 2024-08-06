@@ -30,9 +30,7 @@ const AllCraftitems = () => {
     /> </h2>
                 {/* Dropdown menu for selecting subcategory */}
                 <div className="flex justify-center ">
-
-                 
-                    <fieldset className="space-y-1 text-gray-100 dark:text-gray-800 w-fit mx-auto">
+   <fieldset className="space-y-1 text-gray-100 dark:text-gray-800 w-fit mx-auto">
                         <div className="flex">
                             <span className="flex items-center px-2 py-2 pointer-events-none text-xs rounded-l-md bg-gray-700 dark:bg-gray-300">Filter By Subcategory:</span>
                             <select name="subcategory_Name" value={selectedSubcategory} onChange={handleSubcategoryChange}

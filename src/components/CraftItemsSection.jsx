@@ -23,6 +23,9 @@ const CraftItemsSection = ({ craft }) => {
           />
         </div>
 
+
+        
+
         <div className="flex flex-col flex-1 px-4 py-1">
           <div className="flex flex-wrap justify-between pt-3 space-x-2 text-lg font-medium">
             <span>Price : {price} TK</span>
