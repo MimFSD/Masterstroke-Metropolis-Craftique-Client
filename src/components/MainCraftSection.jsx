@@ -12,7 +12,7 @@ const MainCraftSection = ({ craft }) => {
     ? craft.filter((item) => item.subcategory_Name === selectedSubcategory)
     : craft;
 
-  // Get the first 6 items from the filteredCraft array
+      // Get the first 6 items from the filteredCraft array
   const firstSixCraft = filteredCraft.slice(0, 6);
 
   return (
@@ -26,7 +26,7 @@ const MainCraftSection = ({ craft }) => {
               typeSpeed={200} 
               deleteSpeed={0} 
               delaySpeed={0} 
-              cursor={null} // Disable cursor for smoother typing effect
+              cursor={null}     // Disable cursor for smoother typing effect
               typeWriterSpan={props => <span {...props} className="inline-block"/>} // Wrap each letter in a span for styling
             />
           </h1>
