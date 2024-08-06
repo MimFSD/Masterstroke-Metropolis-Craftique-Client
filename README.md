@@ -37,6 +37,3 @@ To run this project locally, follow these steps:
 - Start the frontend and backend servers:
 - Open your browser and navigate to `http://localhost:3000` to view the application.
 
-## Contributing
-
-Contributions are welcome! Please follow the [contributing guidelines](CONTRIBUTING.md) to contribute to this project.
