@@ -28,8 +28,7 @@ const router = createBrowserRouter([
             },
           
 
-
-
+            
             {
                 path: '/updateProfile',
                 element: <PrivateRoute><UpdateProfile></UpdateProfile></PrivateRoute>
@@ -51,16 +50,12 @@ const router = createBrowserRouter([
             },
 
 
-
-
             {
                 path: '/addCraftItem',
                 element: <PrivateRoute><AddCraftitem></AddCraftitem></PrivateRoute>
             },
 
 
-
-            
             {
                 path: '/myCraftList',
                 element: <PrivateRoute><MyCraftList></MyCraftList></PrivateRoute>,
