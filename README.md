@@ -1,8 +1,6 @@
-
 - Art & Craft Store : Painting and Drawing
 
-*  Craftique
-
+**  Craftique
 
 ## Features
 
