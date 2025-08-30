@@ -1,6 +1,6 @@
 - Art & Craft Store : Painting and Drawing
 
-// * [Masterstroke Metropolis Craftique](https://art-craft-store-client.web.app/)
+//  [Masterstroke Metropolis Craftique](https://art-craft-store-client.web.app/)
 
 ## Features
 
