@@ -1,37 +1,82 @@
-- Art & Craft Store : Painting and Drawing
 
- [Masterstroke Metropolis Craftique](https://art-craft-store-client.web.app/)
+# 🎨 Masterstroke Metropolis Craftique
 
-## Features
+**Art & Craft Store – Painting & Drawing**
 
+An online platform for art and craft enthusiasts to explore, purchase, and manage creative supplies with ease.
 
-- Browse a wide variety of art and craft items.
-- Filter items by category or subcategory.
-- View detailed information about each item.
-- Add items to the shopping cart.
-- Manage user accounts and profiles.
-- Checkout and make purchases securely.
-- Track order history and status.
-- Admin panel for managing products, orders, and users.
+---
 
-## Technologies Used
+## ✨ Features
 
-- **Frontend**: React, Redux, HTML, CSS, JavaScript
-- **Backend**: Node.js, Express.js, MongoDB
-- **Authentication**: JWT (JSON Web Tokens)
-- **Payment Gateway**: Stripe
-- **Deployment**: Vercel (Frontend), Heroku (Backend), MongoDB Atlas (Database)
+* 🖼️ **Browse Products** – Explore a wide variety of art and craft items.
+* 🎯 **Smart Filters** – Filter items by category and subcategory.
+* 📖 **Item Details** – View detailed descriptions, images, and prices.
+* 🛒 **Shopping Cart** – Add, update, or remove items.
+* 👤 **User Accounts** – Register, log in, and manage profiles.
+* 💳 **Secure Checkout** – Purchase items safely using Stripe.
+* 📦 **Order Tracking** – View history and track order status.
+* 🛠️ **Admin Dashboard** – Manage products, users, and orders.
 
-## Getting Started
+---
 
-To run this project locally, follow these steps:
+## 🛠️ Technologies Used
 
-- Clone this repository: `git clone <repository-url>`
-- Navigate to the project directory: `cd Project name`
-- Install dependencies for both frontend and backend:
-- Set up environment variables:
-1. Create a `.env` file in the `frontend` directory and add necessary environment variables.
-2. Create a `.env` file in the `backend` directory and add necessary environment variables.
-- Start the frontend and backend servers:
-- Open your browser and navigate to `http://localhost:3000` to view the application.
+* **Frontend:** React, Redux, HTML, CSS, JavaScript
+* **Backend:** Node.js, Express.js, MongoDB
+* **Authentication:** JWT (JSON Web Tokens)
+* **Payment Gateway:** Stripe
+* **Deployment:** Vercel (Frontend), Heroku (Backend), MongoDB Atlas (Database)
 
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone <repository-url>
+cd masterstroke-metropolis
+```
+
+### 2️⃣ Install dependencies
+
+For **frontend**:
+
+```bash
+cd frontend
+npm install
+```
+
+For **backend**:
+
+```bash
+cd backend
+npm install
+```
+
+### 3️⃣ Set up environment variables
+
+Create a `.env` file in both **frontend** and **backend** directories with required values (API keys, database URI, JWT secret, Stripe keys, etc.).
+
+### 4️⃣ Run the servers
+
+In separate terminals:
+
+Frontend:
+
+```bash
+npm start
+```
+
+Backend:
+
+```bash
+npm run dev
+```
+
+### 5️⃣ Open in browser
+
+Go to: **[http://localhost:3000](http://localhost:3000)**
+
+-
