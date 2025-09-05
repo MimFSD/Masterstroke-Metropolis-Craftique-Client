@@ -84,17 +84,17 @@ const AddCraftitem = () => {
     };
 
     return (
-    //     <div>
-    //         <div className='pb-5'>
-    //             <h2 className='lg:text-3xl text-xl font-semibold text-center py-5'><Typewriter
-    //     words={['Add Craft Item :']} 
-    //     loop={0} 
-    //     typeSpeed={150} 
-    //     deleteSpeed={0} 
-    //     delaySpeed={0} 
-    //     cursor={null} // Disable cursor for smoother typing effect
-    //     typeWriterSpan={props => <span {...props} className="inline-block"/>} // Wrap each letter in a span for styling
-    // /></h2>
+        <div>
+            <div className='pb-5'>
+                <h2 className='lg:text-3xl text-xl font-semibold text-center py-5'><Typewriter
+        words={['Add Craft Item :']} 
+        loop={0} 
+        typeSpeed={150} 
+        deleteSpeed={0} 
+        delaySpeed={0} 
+        cursor={null} // Disable cursor for smoother typing effect
+        typeWriterSpan={props => <span {...props} className="inline-block"/>} // Wrap each letter in a span for styling
+    /></h2>
 
                 <form onSubmit={handleSubmit}>
                     <div className='grid md:grid-cols-2 grid-cols-1 justify-center items-center  gap-5 md:w-2/3 w-11/12 mx-auto'>
